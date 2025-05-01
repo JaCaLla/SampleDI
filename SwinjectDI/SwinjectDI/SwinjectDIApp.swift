@@ -11,8 +11,11 @@ import SwiftUI
 struct SwinjectDIApp: App {
     var body: some Scene {
         WindowGroup {
-            let viewModel = DIContainer.shared.container.resolve(UserListViewModel.self)!
-            UserListView(viewModel: viewModel)
+            let viewModelV1 = DIContainer.shared.container.resolve(UserListViewModel.self, name: "v1")!
+            UserListView(viewModel: viewModelV1)
+            
+//            let viewModelV2 = DIContainer.shared.container.resolve(UserListViewModel.self, name: "v2")!
+//            UserListView(viewModel: viewModelV2)
         }
     }
 }

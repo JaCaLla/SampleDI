@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5AEE52FF2DC3799A004C324E /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 5AEE52FE2DC3799A004C324E /* Swinject */; };
-		5AEE53012DC3799A004C324E /* Swinject-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 5AEE53002DC3799A004C324E /* Swinject-Dynamic */; };
+		5A94B0E42DC3BE3800058995 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 5A94B0E32DC3BE3800058995 /* Swinject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AEE52FF2DC3799A004C324E /* Swinject in Frameworks */,
-				5AEE53012DC3799A004C324E /* Swinject-Dynamic in Frameworks */,
+				5A94B0E42DC3BE3800058995 /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,8 +95,7 @@
 			);
 			name = SwinjectDI;
 			packageProductDependencies = (
-				5AEE52FE2DC3799A004C324E /* Swinject */,
-				5AEE53002DC3799A004C324E /* Swinject-Dynamic */,
+				5A94B0E32DC3BE3800058995 /* Swinject */,
 			);
 			productName = SwinjectDI;
 			productReference = 5AEE52AC2DC35DEE004C324E /* SwinjectDI.app */;
@@ -156,7 +153,7 @@
 			mainGroup = 5AEE52A32DC35DEE004C324E;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				5AEE52FD2DC3799A004C324E /* XCRemoteSwiftPackageReference "Swinject" */,
+				5A94B0E22DC3BE3800058995 /* XCRemoteSwiftPackageReference "Swinject" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 5AEE52AD2DC35DEE004C324E /* Products */;
@@ -460,7 +457,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		5AEE52FD2DC3799A004C324E /* XCRemoteSwiftPackageReference "Swinject" */ = {
+		5A94B0E22DC3BE3800058995 /* XCRemoteSwiftPackageReference "Swinject" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Swinject/Swinject";
 			requirement = {
@@ -471,15 +468,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		5AEE52FE2DC3799A004C324E /* Swinject */ = {
+		5A94B0E32DC3BE3800058995 /* Swinject */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5AEE52FD2DC3799A004C324E /* XCRemoteSwiftPackageReference "Swinject" */;
+			package = 5A94B0E22DC3BE3800058995 /* XCRemoteSwiftPackageReference "Swinject" */;
 			productName = Swinject;
-		};
-		5AEE53002DC3799A004C324E /* Swinject-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 5AEE52FD2DC3799A004C324E /* XCRemoteSwiftPackageReference "Swinject" */;
-			productName = "Swinject-Dynamic";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

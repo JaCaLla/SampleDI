@@ -11,10 +11,13 @@ protocol UserService {
 
 class DefaultUserService: UserService {
     func fetchUsers() -> [User] {
-        return [
-            User(id: 1, name: "Alice"),
-            User(id: 2, name: "Bob")
-        ]
+        return [User(id: 1, name: "Alice")]
+    }
+}
+
+class DefaultUserServiceV2: UserService {
+    func fetchUsers() -> [User] {
+        return [User(id: 2, name: "Charlie")]
     }
 }
 

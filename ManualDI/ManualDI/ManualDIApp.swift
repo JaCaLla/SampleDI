@@ -11,9 +11,15 @@ import SwiftUI
 struct ManualDIApp: App {
     var body: some Scene {
         WindowGroup {
-            let userService = DefaultUserService()
-            let viewModel = UserListViewModel(userService: userService)
-            UserListView(viewModel: viewModel)
+            // Screen 1
+            let service1 = DefaultUserService()
+            let viewModel1 = UserListViewModel(userService: service1)
+
+            // Screen 2
+            let service2 = DefaultUserServiceV2()
+            let viewModel2 = UserListViewModel(userService: service2)
+            
+            UserListView(viewModel: viewModel1)
         }
     }
 }
