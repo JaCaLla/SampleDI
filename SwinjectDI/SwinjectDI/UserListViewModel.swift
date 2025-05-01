@@ -6,18 +6,13 @@
 //
 import SwiftUI
 
-class UserListViewModel: ObservableObject {
-    @Published var users: [User] = []
+ class UserListViewModel: ObservableObject {
+     @Published var users: [User] = []
 
-    private let userService: UserService
+     @Injected(name: "v1") private var userService: UserService
 
-    init(userService: UserService) {
-        self.userService = userService
-        loadUsers()
-    }
-
-    func loadUsers() {
-        self.users = userService.fetchUsers()
-    }
-}
-
+     func loadUsers() {
+         self.users = userService.fetchUsers()
+     }
+ }
+ 
