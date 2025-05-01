@@ -5,6 +5,6 @@
       location = "group:SwinjectDI/SwinjectDI.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:ManualDI/ManualDI.xcodeproj">
+      location = "container:ManualDI/ManualDI.xcodeproj">
    </FileRef>
 </Workspace>

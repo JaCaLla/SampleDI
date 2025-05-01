@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5A94B0E42DC3BE3800058995 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 5A94B0E32DC3BE3800058995 /* Swinject */; };
+		5A4E676D2DC3CEFE003CF78F /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 5A4E676C2DC3CEFE003CF78F /* Swinject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5AEE52BA2DC35DEF004C324E /* PBXContainerItemProxy */ = {
+		5A4E674F2DC3CEC9003CF78F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5AEE52A42DC35DEE004C324E /* Project object */;
+			containerPortal = 5A4E67392DC3CEC7003CF78F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5AEE52AB2DC35DEE004C324E;
+			remoteGlobalIDString = 5A4E67402DC3CEC7003CF78F;
 			remoteInfo = SwinjectDI;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5AEE52AC2DC35DEE004C324E /* SwinjectDI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwinjectDI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AEE52B92DC35DEF004C324E /* SwinjectDITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwinjectDITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4E67412DC3CEC7003CF78F /* SwinjectDI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwinjectDI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4E674E2DC3CEC9003CF78F /* SwinjectDITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwinjectDITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		5AEE52AE2DC35DEE004C324E /* SwinjectDI */ = {
+		5A4E67432DC3CEC7003CF78F /* SwinjectDI */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SwinjectDI;
 			sourceTree = "<group>";
 		};
-		5AEE52BC2DC35DEF004C324E /* SwinjectDITests */ = {
+		5A4E67512DC3CEC9003CF78F /* SwinjectDITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SwinjectDITests;
 			sourceTree = "<group>";
@@ -39,15 +39,15 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5AEE52A92DC35DEE004C324E /* Frameworks */ = {
+		5A4E673E2DC3CEC7003CF78F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A94B0E42DC3BE3800058995 /* Swinject in Frameworks */,
+				5A4E676D2DC3CEFE003CF78F /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5AEE52B62DC35DEF004C324E /* Frameworks */ = {
+		5A4E674B2DC3CEC9003CF78F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -57,20 +57,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5AEE52A32DC35DEE004C324E = {
+		5A4E67382DC3CEC7003CF78F = {
 			isa = PBXGroup;
 			children = (
-				5AEE52AE2DC35DEE004C324E /* SwinjectDI */,
-				5AEE52BC2DC35DEF004C324E /* SwinjectDITests */,
-				5AEE52AD2DC35DEE004C324E /* Products */,
+				5A4E67432DC3CEC7003CF78F /* SwinjectDI */,
+				5A4E67512DC3CEC9003CF78F /* SwinjectDITests */,
+				5A4E67422DC3CEC7003CF78F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5AEE52AD2DC35DEE004C324E /* Products */ = {
+		5A4E67422DC3CEC7003CF78F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5AEE52AC2DC35DEE004C324E /* SwinjectDI.app */,
-				5AEE52B92DC35DEF004C324E /* SwinjectDITests.xctest */,
+				5A4E67412DC3CEC7003CF78F /* SwinjectDI.app */,
+				5A4E674E2DC3CEC9003CF78F /* SwinjectDITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,103 +78,105 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5AEE52AB2DC35DEE004C324E /* SwinjectDI */ = {
+		5A4E67402DC3CEC7003CF78F /* SwinjectDI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5AEE52CD2DC35DEF004C324E /* Build configuration list for PBXNativeTarget "SwinjectDI" */;
+			buildConfigurationList = 5A4E67622DC3CEC9003CF78F /* Build configuration list for PBXNativeTarget "SwinjectDI" */;
 			buildPhases = (
-				5AEE52A82DC35DEE004C324E /* Sources */,
-				5AEE52A92DC35DEE004C324E /* Frameworks */,
-				5AEE52AA2DC35DEE004C324E /* Resources */,
+				5A4E673D2DC3CEC7003CF78F /* Sources */,
+				5A4E673E2DC3CEC7003CF78F /* Frameworks */,
+				5A4E673F2DC3CEC7003CF78F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				5AEE52AE2DC35DEE004C324E /* SwinjectDI */,
+				5A4E67432DC3CEC7003CF78F /* SwinjectDI */,
 			);
 			name = SwinjectDI;
 			packageProductDependencies = (
-				5A94B0E32DC3BE3800058995 /* Swinject */,
+				5A4E676C2DC3CEFE003CF78F /* Swinject */,
 			);
 			productName = SwinjectDI;
-			productReference = 5AEE52AC2DC35DEE004C324E /* SwinjectDI.app */;
+			productReference = 5A4E67412DC3CEC7003CF78F /* SwinjectDI.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5AEE52B82DC35DEF004C324E /* SwinjectDITests */ = {
+		5A4E674D2DC3CEC9003CF78F /* SwinjectDITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5AEE52D02DC35DEF004C324E /* Build configuration list for PBXNativeTarget "SwinjectDITests" */;
+			buildConfigurationList = 5A4E67652DC3CEC9003CF78F /* Build configuration list for PBXNativeTarget "SwinjectDITests" */;
 			buildPhases = (
-				5AEE52B52DC35DEF004C324E /* Sources */,
-				5AEE52B62DC35DEF004C324E /* Frameworks */,
-				5AEE52B72DC35DEF004C324E /* Resources */,
+				5A4E674A2DC3CEC9003CF78F /* Sources */,
+				5A4E674B2DC3CEC9003CF78F /* Frameworks */,
+				5A4E674C2DC3CEC9003CF78F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5AEE52BB2DC35DEF004C324E /* PBXTargetDependency */,
+				5A4E67502DC3CEC9003CF78F /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				5AEE52BC2DC35DEF004C324E /* SwinjectDITests */,
+				5A4E67512DC3CEC9003CF78F /* SwinjectDITests */,
 			);
 			name = SwinjectDITests;
 			packageProductDependencies = (
 			);
 			productName = SwinjectDITests;
-			productReference = 5AEE52B92DC35DEF004C324E /* SwinjectDITests.xctest */;
+			productReference = 5A4E674E2DC3CEC9003CF78F /* SwinjectDITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5AEE52A42DC35DEE004C324E /* Project object */ = {
+		5A4E67392DC3CEC7003CF78F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1630;
 				LastUpgradeCheck = 1630;
 				TargetAttributes = {
-					5AEE52AB2DC35DEE004C324E = {
+					5A4E67402DC3CEC7003CF78F = {
 						CreatedOnToolsVersion = 16.3;
+						LastSwiftMigration = 1630;
 					};
-					5AEE52B82DC35DEF004C324E = {
+					5A4E674D2DC3CEC9003CF78F = {
 						CreatedOnToolsVersion = 16.3;
-						TestTargetID = 5AEE52AB2DC35DEE004C324E;
+						LastSwiftMigration = 1630;
+						TestTargetID = 5A4E67402DC3CEC7003CF78F;
 					};
 				};
 			};
-			buildConfigurationList = 5AEE52A72DC35DEE004C324E /* Build configuration list for PBXProject "SwinjectDI" */;
+			buildConfigurationList = 5A4E673C2DC3CEC7003CF78F /* Build configuration list for PBXProject "SwinjectDI" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 5AEE52A32DC35DEE004C324E;
+			mainGroup = 5A4E67382DC3CEC7003CF78F;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				5A94B0E22DC3BE3800058995 /* XCRemoteSwiftPackageReference "Swinject" */,
+				5A4E676B2DC3CEFE003CF78F /* XCRemoteSwiftPackageReference "Swinject" */,
 			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 5AEE52AD2DC35DEE004C324E /* Products */;
+			productRefGroup = 5A4E67422DC3CEC7003CF78F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5AEE52AB2DC35DEE004C324E /* SwinjectDI */,
-				5AEE52B82DC35DEF004C324E /* SwinjectDITests */,
+				5A4E67402DC3CEC7003CF78F /* SwinjectDI */,
+				5A4E674D2DC3CEC9003CF78F /* SwinjectDITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5AEE52AA2DC35DEE004C324E /* Resources */ = {
+		5A4E673F2DC3CEC7003CF78F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5AEE52B72DC35DEF004C324E /* Resources */ = {
+		5A4E674C2DC3CEC9003CF78F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -184,14 +186,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5AEE52A82DC35DEE004C324E /* Sources */ = {
+		5A4E673D2DC3CEC7003CF78F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5AEE52B52DC35DEF004C324E /* Sources */ = {
+		5A4E674A2DC3CEC9003CF78F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -201,15 +203,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5AEE52BB2DC35DEF004C324E /* PBXTargetDependency */ = {
+		5A4E67502DC3CEC9003CF78F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5AEE52AB2DC35DEE004C324E /* SwinjectDI */;
-			targetProxy = 5AEE52BA2DC35DEF004C324E /* PBXContainerItemProxy */;
+			target = 5A4E67402DC3CEC7003CF78F /* SwinjectDI */;
+			targetProxy = 5A4E674F2DC3CEC9003CF78F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5AEE52CB2DC35DEF004C324E /* Debug */ = {
+		5A4E67602DC3CEC9003CF78F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -273,7 +275,7 @@
 			};
 			name = Debug;
 		};
-		5AEE52CC2DC35DEF004C324E /* Release */ = {
+		5A4E67612DC3CEC9003CF78F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -330,11 +332,12 @@
 			};
 			name = Release;
 		};
-		5AEE52CE2DC35DEF004C324E /* Debug */ = {
+		5A4E67632DC3CEC9003CF78F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7ZPDPWR8XU;
@@ -353,16 +356,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jca.SwinjectDI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		5AEE52CF2DC35DEF004C324E /* Release */ = {
+		5A4E67642DC3CEC9003CF78F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7ZPDPWR8XU;
@@ -386,10 +391,11 @@
 			};
 			name = Release;
 		};
-		5AEE52D12DC35DEF004C324E /* Debug */ = {
+		5A4E67662DC3CEC9003CF78F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7ZPDPWR8XU;
@@ -399,16 +405,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jca.SwinjectDITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwinjectDI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwinjectDI";
 			};
 			name = Debug;
 		};
-		5AEE52D22DC35DEF004C324E /* Release */ = {
+		5A4E67672DC3CEC9003CF78F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7ZPDPWR8XU;
@@ -427,29 +435,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5AEE52A72DC35DEE004C324E /* Build configuration list for PBXProject "SwinjectDI" */ = {
+		5A4E673C2DC3CEC7003CF78F /* Build configuration list for PBXProject "SwinjectDI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5AEE52CB2DC35DEF004C324E /* Debug */,
-				5AEE52CC2DC35DEF004C324E /* Release */,
+				5A4E67602DC3CEC9003CF78F /* Debug */,
+				5A4E67612DC3CEC9003CF78F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5AEE52CD2DC35DEF004C324E /* Build configuration list for PBXNativeTarget "SwinjectDI" */ = {
+		5A4E67622DC3CEC9003CF78F /* Build configuration list for PBXNativeTarget "SwinjectDI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5AEE52CE2DC35DEF004C324E /* Debug */,
-				5AEE52CF2DC35DEF004C324E /* Release */,
+				5A4E67632DC3CEC9003CF78F /* Debug */,
+				5A4E67642DC3CEC9003CF78F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5AEE52D02DC35DEF004C324E /* Build configuration list for PBXNativeTarget "SwinjectDITests" */ = {
+		5A4E67652DC3CEC9003CF78F /* Build configuration list for PBXNativeTarget "SwinjectDITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5AEE52D12DC35DEF004C324E /* Debug */,
-				5AEE52D22DC35DEF004C324E /* Release */,
+				5A4E67662DC3CEC9003CF78F /* Debug */,
+				5A4E67672DC3CEC9003CF78F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -457,7 +465,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		5A94B0E22DC3BE3800058995 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+		5A4E676B2DC3CEFE003CF78F /* XCRemoteSwiftPackageReference "Swinject" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Swinject/Swinject";
 			requirement = {
@@ -468,12 +476,12 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		5A94B0E32DC3BE3800058995 /* Swinject */ = {
+		5A4E676C2DC3CEFE003CF78F /* Swinject */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 5A94B0E22DC3BE3800058995 /* XCRemoteSwiftPackageReference "Swinject" */;
+			package = 5A4E676B2DC3CEFE003CF78F /* XCRemoteSwiftPackageReference "Swinject" */;
 			productName = Swinject;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 5AEE52A42DC35DEE004C324E /* Project object */;
+	rootObject = 5A4E67392DC3CEC7003CF78F /* Project object */;
 }

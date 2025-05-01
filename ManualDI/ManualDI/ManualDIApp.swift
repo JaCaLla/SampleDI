@@ -16,8 +16,8 @@ struct ManualDIApp: App {
             let viewModel1 = UserListViewModel(userService: service1)
 
             // Screen 2
-            let service2 = DefaultUserServiceV2()
-            let viewModel2 = UserListViewModel(userService: service2)
+//            let service2 = DefaultUserServiceV2()
+//            let viewModel2 = UserListViewModel(userService: service2)
             
             UserListView(viewModel: viewModel1)
         }
